@@ -24,7 +24,7 @@ pipeline{
       steps{
         sh '''
           #hgxvx uydgukghc
-          sudo 'cp /home/shruthi/Desktop/dev2/MyMavenWebApp18/target/MyMavenWebApp18.war /opt/tomcat/webapps/'
+          sudo cp /home/shruthi/Desktop/dev2/MyMavenWebApp18/target/MyMavenWebApp18.war /opt/tomcat/webapps/
           '''
       }
     }
