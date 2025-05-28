@@ -1,9 +1,10 @@
 pipeline{
+  
   ageny any
 
   tools{
     maven 'Maven'
-    jdk   'JDK'
+    jdk 'JDK'
   }
 
   stages{
